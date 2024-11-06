@@ -95,7 +95,7 @@ public class MainApp extends Application {
             initialData = new AddressBook();
         }
 
-        // Initialize IngredientCatalogue
+        // Initialize the IngredientCatalogue
         IngredientCatalogue ingredientCatalogue;
         try {
             ingredientCatalogue = storage.readIngredientCatalogue().orElseGet(SampleDataUtil::getSampleIngredientCatalogue);
